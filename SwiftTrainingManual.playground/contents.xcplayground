@@ -3,6 +3,7 @@
     <pages>
         <page name='HEADER'/>
         <page name='__template'/>
+        <page name='__test'/>
         <page name='Multithearding'/>
         <page name='Multithearding - pthread'/>
         <page name='Multithearding - Thread'/>
@@ -15,5 +16,10 @@
         <page name='Multithearding - Deadlock'/>
         <page name='Multithearding - Priority Inversion'/>
         <page name='DateFormatter'/>
+        <page name='RunLoop'/>
+        <page name='AutoreleasePool'/>
+        <page name='URLSession'/>
+        <page name='DispatchTime'/>
+        <page name='ObjCRuntime'/>
     </pages>
 </playground>

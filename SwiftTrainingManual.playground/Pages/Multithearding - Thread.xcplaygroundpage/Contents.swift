@@ -1,6 +1,7 @@
 /*:
+ [Оглавление](HEADER)
  # Thread class
- class Thread: NSObject
+class Thread: NSObject
  
  ### Описание
  

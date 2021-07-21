@@ -1,5 +1,5 @@
-import Foundation
 /*:
+ [Оглавление](HEADER)
  # Priority Inversion - Инверсия приоритетов
  
  ### Описание

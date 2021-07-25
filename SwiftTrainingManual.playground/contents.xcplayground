@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='ios' display-mode='raw' buildActiveScheme='true'>
+<playground version='6.0' target-platform='ios' display-mode='raw' buildActiveScheme='true' executeOnSourceChanges='true'>
     <pages>
         <page name='HEADER'/>
         <page name='__template'/>
         <page name='__test'/>
+        <page name='Operations with numbers'/>
+        <page name='Operations with strings'/>
         <page name='Multithearding'/>
         <page name='Multithearding - pthread'/>
         <page name='Multithearding - Thread'/>

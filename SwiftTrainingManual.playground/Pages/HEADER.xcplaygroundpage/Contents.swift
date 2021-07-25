@@ -1,4 +1,7 @@
 //: # ОГЛАВЛЕНИЕ
+//: ## Числа и строки
+//: - [Операции со строками](Operations%20with%20strings)
+//: - [Операции с числами](Operations%20with%20numbers)
 //: ## Дата и время
 //: - [DispatchTime, DispatchWallTime](DispatchTime)
 //: - [DateFormatter](DateFormatter) - форматирование отображения даты и времени, перевод даты в строку и строки в дату

@@ -1,7 +1,8 @@
 //: # ОГЛАВЛЕНИЕ
 //: ## Числа и строки
-//: - [Операции со строками](Operations%20with%20strings)
 //: - [Операции с числами](Operations%20with%20numbers)
+//: - [Операции со строками](Operations%20with%20strings)
+//: - [Регулярные выражения](Regexp)
 //: ## Дата и время
 //: - [DispatchTime, DispatchWallTime](DispatchTime)
 //: - [DateFormatter](DateFormatter) - форматирование отображения даты и времени, перевод даты в строку и строки в дату
@@ -17,4 +18,4 @@
 //: ## Тестирование
 //: - [UITests](UITesting)
 //: ## Дебаг
-//: - [LLDB](Debug%20LLDB)
+//: - [LLDB](Debug%20LLDB) - низкоуровневый консольный дебагер

@@ -7,6 +7,17 @@ import PlaygroundSupport
 
 PlaygroundSupport.PlaygroundPage.current.needsIndefiniteExecution = true
 
+Dispatch
+if true {
+    
+    var array: [Int] = []
+    
+    DispatchQueue.concurrentPerform(iterations: 10) { i in
+        array.append(i)
+    }
+    
+    print(array)
+}
 
 //: __Попытка передать данные между тредами__
 // не удалось

@@ -5,6 +5,7 @@
 //: ## Дата и время
 //: - [DispatchTime, DispatchWallTime](DispatchTime)
 //: - [DateFormatter](DateFormatter) - форматирование отображения даты и времени, перевод даты в строку и строки в дату
+//: - [DispatchSource Timer](Multithearding%20-%20GCD) - реализация таймера в библиотеке GCD для многопоточного программирования
 //: ## Сетевой слой
 //: - [URLSession](URLSession)
 //: ## Функционирование приложения
@@ -13,3 +14,7 @@
 //: - [RunLoop](RunLoop)
 //: - [Autorelease Pool](AutoreleasePool)
 //: - [Многопоточность](Multithearding)
+//: ## Тестирование
+//: - [UITests](UITesting)
+//: ## Дебаг
+//: - [LLDB](Debug%20LLDB)

@@ -9,10 +9,19 @@
  - GCD имеет пул потоков, с которыми и работает.
  - GCD имеет несколько заранее созданных (5 global и 1 main) очередей, с которыми можно работать. Но можно создавать и собственные очереди
  - Работа с UI-элементами должна выполнятьс в main-потоке
+ - Инструкции могут быть определены с помощью closure или DispatchWorkItem
  
- ### Типы выполняемых задач
- - closure
- - DispatchWorkItem
+ ### Типы выполнения
+ - sync - работа текущего потока преостанавливается, пока не будет выполнен синхронно переданный код
+ - async - работа текущего потока не преостанавливается
+ 
+ __!!! Внимание__ main очередь является serial, поэтому добавление в нее задач с помощью async приводит к их постановке в очередь, но выполняются они позже, когда очередь освободится.
+ 
+ ### Групповое выполнение задач
+ - DispatchGroup - позволет запланировать выполнение некоторой задачи после того, как будут выполнен ряд предварительных задач. Например сперва загрузка 10 изображений, а уже потом их отображение на сцене.
+ 
+ ### Другое
+ - DispatchSource - програмнный интерфейс для мониторинга различных низкоуровневых источников данных, например событий файловой системы, портов, таймеров, сокетов и т.д.
  */
 import Foundation
 import PlaygroundSupport
@@ -98,7 +107,70 @@ workItem.notify(queue: .main) {
 }
 
 // вызов WorkItem
-if true {
+if false {
     concurrentQueue.async(execute: workItem)
 }
 
+//: ##  DispatchGroup
+
+//: __ Использование DispatchGroup__
+
+if false {
+
+    let group = DispatchGroup()
+
+    // так как очередь серийная, то одновременно будет выполняться только 1 поток
+    // в случае concurrent все потоки запустятся одновременно
+    for i in Array(1...3) {
+        serialQueue.async(group: group) {
+            //sleep(1)
+            print("itteration - \(i)")
+        }
+    }
+    
+    // данное замыкание будет выполнено, когда вся группа отработает
+    group.notify(queue: .main) {
+        print("Group did finish")
+    }
+
+}
+
+//: __ Использование DispatchGroup__
+
+if false {
+    
+    let group = DispatchGroup()
+ 
+    for i in Array(1...3) {
+        // увеличием счетчик группы на 1
+        group.enter()
+        concurrentQueue.async {
+            sleep(1)
+            print("itteration - \(i)")
+            // уменьшаем счетчик группы на 1
+            group.leave()
+        }
+    }
+    
+    // когда счетчик группы будет равен 0 (все задачи выполнены)
+    // то выполняется этот блок кода
+    group.notify(queue: .main) {
+        print("Group did finish")
+    }
+     
+}
+
+//: ##  DispatchSource
+
+//: __ Создание таймера__
+//if true {
+    
+    let timer = DispatchSource.makeTimerSource(queue: .global())
+    timer.setEventHandler {
+        print("Timer did end")
+    }
+    timer.schedule(deadline: DispatchTime.now(), repeating: 5 )
+    timer.activate()
+    
+    //sleep(30)
+//}

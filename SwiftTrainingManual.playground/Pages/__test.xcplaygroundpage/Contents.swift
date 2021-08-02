@@ -7,6 +7,15 @@ import PlaygroundSupport
 
 PlaygroundSupport.PlaygroundPage.current.needsIndefiniteExecution = true
 
+let price = 149.00 as NSNumber
+let formatter = NumberFormatter()
+formatter.numberStyle = .decimal
+//formatter.currencyCode = "EUR"
+formatter.locale = Locale.current
+formatter.string(from: price)
+
+let quantity = NumberFormatter.localizedString(from: 5000, number: .currency)
+
 Dispatch
 if true {
     

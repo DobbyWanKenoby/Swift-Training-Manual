@@ -28,5 +28,6 @@
         <page name='UITesting'/>
         <page name='Debug LLDB'/>
         <page name='Regexp'/>
+        <page name='Localization'/>
     </pages>
 </playground>

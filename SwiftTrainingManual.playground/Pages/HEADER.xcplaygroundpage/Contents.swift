@@ -15,7 +15,8 @@
 //: - [RunLoop](RunLoop)
 //: - [Autorelease Pool](AutoreleasePool)
 //: - [Многопоточность](Multithearding)
-//: ## Тестирование
-//: - [UITests](UITesting)
+//: ## Другое
+//: - [UITests](UITesting) - UI-тесты
+//: - [Localization](Localization) - локализация приложения
 //: ## Дебаг
 //: - [LLDB](Debug%20LLDB) - низкоуровневый консольный дебагер

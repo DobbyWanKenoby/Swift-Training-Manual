@@ -7,6 +7,28 @@ import PlaygroundSupport
 
 PlaygroundSupport.PlaygroundPage.current.needsIndefiniteExecution = true
 
+
+// Возвращаем строку в соответствии с текущей локалью
+let quantity = NumberFormatter.localizedString(from: 5000, number: .decimal) // 5,000
+
+// создаем форматтер
+var numFormatter = NumberFormatter()
+// указываем стиль интернационализации чисел
+numFormatter.numberStyle = .decimal
+// указываем значение
+let value: NSNumber = 5000
+
+// проверяем текущую локаль
+numFormatter.locale // en_US
+numFormatter.string(from: value) // 5,000
+
+// изменяем локаль
+numFormatter.locale = Locale.init(identifier: "ru_RU")
+numFormatter.string(from: value) // 5 000
+
+
+print(String.localizedStringWithFormat("some key of Localizable.strings", quantity))
+
 let price = 149.00 as NSNumber
 let formatter = NumberFormatter()
 formatter.numberStyle = .decimal

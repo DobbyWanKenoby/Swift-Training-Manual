@@ -14,6 +14,10 @@
 - [RunLoop](/RunLoop.md)
 - [Objective-C Runtime](/ObjectiveCRuntime.md)
 
+### Практики программировавния
+
+- [Выбор между `struct` и `class`](./StructClassChoise.md)
+
 ### Создание универсальных приложения
 
 - [Интернационализация и локализация](./Localization.md)
@@ -26,6 +30,7 @@
 
 <a id="eng"></a>
 ### A
+- Autorelease (pool) [[1](/MemoryManagement.md#autoreleasepool)]
 - ARC - Automatic reference counting [[1](/MemoryManagement.md#arc)]
 
 ### H

@@ -7,16 +7,44 @@
 
 ### Запуск и функционирование приложения
 
-- [Запуск приложения](./Ch-AppExecution.md#launch)
-- [Процессы](./Ch-AppExecution.md#processes)
-- [Потоки и многопоточность](/Ch_Thearding.md)
-- [RunLoop](/Ch-RunLoop.md)
-- [Objective-C Runtime](/Ch-ObjectiveCRuntime.md)
+- [Запуск приложения](./AppExecution.md#launch)
+- [Процессы](./AppExecution.md#processes)
+- [Потоки и многопоточность](/Thearding.md)
+- [Управление памятью в iOS](./MemoryManagement.md)
+- [RunLoop](/RunLoop.md)
+- [Objective-C Runtime](/ObjectiveCRuntime.md)
 
 ### Создание универсальных приложения
 
-- [Интернационализация и локализация](./Ch-Localization.md)
+- [Интернационализация и локализация](./Localization.md)
 - Универсальный доступ (Accessibilities)
+
+## Предметный указатель
+
+- [Русские термины](#rus)
+- [Английские термины](#eng)
+
+<a id="eng"></a>
+### A
+- ARC - Automatic reference counting [[1](/MemoryManagement.md#arc)]
+
+### H
+- Heap [[1](/MemoryManagement.md#heap)]
+
+### M
+- MRC - Manual reference counting [[1](/MemoryManagement.md#mrc)]
+
+### S
+- Stack (memory) [[1](/MemoryManagement.md#stack)]
+
+---
+<a id="rus"></a>
+### К
+- Куча [[1](/MemoryManagement.md#heap)]
+
+### С
+- Стек (память) [[1](/MemoryManagement.md#stack)]
+
 
 ## Использование playground-файла
 

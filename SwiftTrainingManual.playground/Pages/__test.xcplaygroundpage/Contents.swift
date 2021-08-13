@@ -8,6 +8,11 @@ import PlaygroundSupport
 PlaygroundSupport.PlaygroundPage.current.needsIndefiniteExecution = true
 
 
+var a = [Int]()
+a.capacity
+a.append(1)
+
+
 // Возвращаем строку в соответствии с текущей локалью
 let quantity = NumberFormatter.localizedString(from: 5000, number: .decimal) // 5,000
 

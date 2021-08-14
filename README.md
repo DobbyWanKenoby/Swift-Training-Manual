@@ -8,9 +8,9 @@
 ### Запуск и функционирование приложения
 
 - [Запуск приложения](./AppExecution.md#launch)
+- [Оперативная память в iOS](./MemoryManagement.md)
 - [Процессы](./AppExecution.md#processes)
 - [Потоки и многопоточность](/Thearding.md)
-- [Управление памятью в iOS](./MemoryManagement.md)
 - [RunLoop](/RunLoop.md)
 - [Objective-C Runtime](/ObjectiveCRuntime.md)
 

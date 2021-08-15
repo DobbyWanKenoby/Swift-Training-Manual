@@ -7,12 +7,21 @@
 
 ### Запуск и функционирование приложения
 
+- [Компиляция приложения](./AppCompilation.md)
 - [Запуск приложения](./AppExecution.md#launch)
 - [Оперативная память в iOS](./MemoryManagement.md)
 - [Процессы](./AppExecution.md#processes)
 - [Потоки и многопоточность](/Thearding.md)
-- [RunLoop](/RunLoop.md)
-- [Objective-C Runtime](/ObjectiveCRuntime.md)
+- [RunLoop](./RunLoop.md)
+- [Objective-C Runtime](./ObjectiveCRuntime.md)
+
+### Типы данных
+
+- 	[Операции со строками](./String.md)
+
+### Тестирование приложения
+
+- [Симулятор](./Simulator.md)
 
 ### Практики программировавния
 
@@ -32,6 +41,10 @@
 ### A
 - Autorelease (pool) [[1](/MemoryManagement.md#autoreleasepool)]
 - ARC - Automatic reference counting [[1](/MemoryManagement.md#arc)]
+- Attributes
+	- @main [[1](./AppExecution.md#launch)]
+	- @objc [[1](/ObjectiveCRuntime.md)]
+	- @UIApplicationMain [[1](./AppExecution.md#launch)]
 
 ### H
 - Heap [[1](/MemoryManagement.md#heap)]
@@ -44,6 +57,12 @@
 
 ---
 <a id="rus"></a>
+### А
+- Аттрибуты
+	- @main [[1](./AppExecution.md#launch)]
+	- @objc [[1](/ObjectiveCRuntime.md)]
+	- @UIApplicationMain [[1](./AppExecution.md#launch)]
+
 ### К
 - Куча [[1](/MemoryManagement.md#heap)]
 

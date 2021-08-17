@@ -17,7 +17,9 @@
 
 ### Типы данных
 
-- 	[Операции со строками](./String.md)
+-	[Swift Standard Library](./SwiftStandardLibrary.md)
+-	[Строковые типы данных](./String.md)
+-	[Массивы (array)](./Array.md)
 
 ### Хранение данных
 
@@ -27,7 +29,7 @@
 
 - [Симулятор](./Simulator.md)
 
-### Практики программировавния
+### Практики программирования
 
 - [Выбор между `struct` и `class`](./StructClassChoise.md)
 
@@ -45,19 +47,27 @@
 ### A
 - Autorelease (pool) [[1](/MemoryManagement.md#autoreleasepool)]
 - ARC - Automatic reference counting [[1](/MemoryManagement.md#arc)]
+- Array (тип данных) [[1](/Array.md#array)]
 - Attributes
 	- @main [[1](./AppExecution.md#launch)]
 	- @objc [[1](/ObjectiveCRuntime.md)]
 	- @UIApplicationMain [[1](./AppExecution.md#launch)]
 
+### C
+- ContiguousArray [[1](/Array.md#contiguousarray)]
+
 ### H
-- Heap [[1](/MemoryManagement.md#heap)]
+- Heap (область памяти) [[1](/MemoryManagement.md#heap)]
 
 ### M
 - MRC - Manual reference counting [[1](/MemoryManagement.md#mrc)]
 
+### N
+- NSArray [[1](/Array.md#nsarray)]
+- NSMutableArray [[1](/Array.md#nsmutablearray)]
+
 ### S
-- Stack (memory) [[1](/MemoryManagement.md#stack)]
+- Stack (область памяти) [[1](/MemoryManagement.md#stack)]
 
 ---
 <a id="rus"></a>
@@ -68,10 +78,13 @@
 	- @UIApplicationMain [[1](./AppExecution.md#launch)]
 
 ### К
-- Куча [[1](/MemoryManagement.md#heap)]
+- Куча (область памяти) [[1](/MemoryManagement.md#heap)]
+
+### М
+- Массив (тип данных) [[1](/Array.md#array)]
 
 ### С
-- Стек (память) [[1](/MemoryManagement.md#stack)]
+- Стек (область памяти) [[1](/MemoryManagement.md#stack)]
 
 
 ## Использование playground-файла

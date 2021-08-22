@@ -7,10 +7,21 @@ import PlaygroundSupport
 
 PlaygroundSupport.PlaygroundPage.current.needsIndefiniteExecution = true
 
+var array = [1, 2, 3, 4]
+array.description
 
-var a = [Int]()
-a.capacity
-a.append(1)
+var result = ""
+// ...
+var first = true
+for item in self {
+  if first {
+    first = false
+  } else {
+    result += ", "
+  }
+  debugPrint(item, terminator: "", to: &result)
+}
+// ...
 
 
 // Возвращаем строку в соответствии с текущей локалью

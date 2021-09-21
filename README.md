@@ -8,12 +8,21 @@
 ### Запуск и функционирование приложения
 
 - [Компиляция приложения](./AppCompilation.md)
-- [Запуск приложения](./AppExecution.md#launch)
-- [Оперативная память в iOS](./MemoryManagement.md)
-- [Процессы](./AppExecution.md#processes)
+- [Запуск и функционирование приложения](./AppExecution.md)
+	- [Запуск приложения](./AppExecution.md#launch)
+	- [Процессы](./AppExecution.md#processes)
 - [Потоки и многопоточность](/Thearding.md)
 - [RunLoop](./RunLoop.md)
 - [Objective-C Runtime](./ObjectiveCRuntime.md)
+- [Управление памятью в iOS](./MemoryManagement.md)
+	- [Структура памяти](./MemoryManagement.md#structure)
+	- [Стек](./MemoryManagement.md#stack)
+	- [Куча](./MemoryManagement.md#heap)
+	- [Подсчет ссылок. MRC и ARC](./MemoryManagement.md#refcounting)
+	- [Autoreleasepool](./MemoryManagement.md#autoreleasepool)
+- [Выделение памяти под объекты](./MemoryManagement.md#usememory)
+	- [Value type и Reference type](./MemoryManagement.md#usememory)
+	- [Copy-on-assignment и Copy-on-write](./MemoryManagement.md#coa-cow)
 
 ### Типы данных
 

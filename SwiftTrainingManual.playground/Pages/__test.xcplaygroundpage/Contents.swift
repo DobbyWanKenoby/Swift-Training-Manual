@@ -7,6 +7,28 @@ import PlaygroundSupport
 
 PlaygroundSupport.PlaygroundPage.current.needsIndefiniteExecution = true
 
+protocol Proto {
+    var a: Int { get }
+}
+
+extension Proto {
+    var a: Int {
+        return 2
+    }
+}
+
+class FooClass: Proto {
+    var a: Int {
+        return 5
+    }
+}
+
+var imp = FooClass()
+imp.a
+
+
+
+
 var array = [1, 2, 3, 4]
 array.description
 

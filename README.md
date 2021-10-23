@@ -11,7 +11,6 @@
 - [Запуск и функционирование приложения](./AppExecution.md)
 	- [Запуск приложения](./AppExecution.md#launch)
 	- [Процессы](./AppExecution.md#processes)
-- [Потоки и многопоточность](/Thearding.md)
 - [RunLoop](./RunLoop.md)
 - [Objective-C Runtime](./ObjectiveCRuntime.md)
 - [Управление памятью в iOS](./MemoryManagement.md)
@@ -20,7 +19,6 @@
 	- [Куча](./MemoryManagement.md#heap)
 	- [Подсчет ссылок. MRC и ARC](./MemoryManagement.md#refcounting)
 	- [Autoreleasepool](./MemoryManagement.md#autoreleasepool)
-- [Выделение памяти под объекты](./MemoryManagement.md#usememory)
 	- [Value type и Reference type](./MemoryManagement.md#usememory)
 	- [Copy-on-assignment и Copy-on-write](./MemoryManagement.md#coa-cow)
 
@@ -28,7 +26,15 @@
 
 -	[Swift Standard Library](./SwiftStandardLibrary.md)
 -	[Строковые типы данных](./String.md)
--	[Массивы (array)](./Array.md)
+-	[Массив (Array)](./Array.md)
+
+### Асинхронные и реактивные интерфейсы
+
+- [Асинхронные и реактивные интерфейсы iOS](./Async.md)
+	- [Notification Center](./NotificationCenter.md)
+	- [KVO и KVC](KVO-KVC.md)
+	- [Combine](./Combine.md)
+	- [Потоки и многопоточность](/Thearding.md)
 
 ### Хранение данных
 
@@ -49,10 +55,6 @@
 
 ## Предметный указатель
 
-- [Русские термины](#rus)
-- [Английские термины](#eng)
-
-<a id="eng"></a>
 ### A
 - Autorelease (pool) [[1](/MemoryManagement.md#autoreleasepool)]
 - ARC - Automatic reference counting [[1](/MemoryManagement.md#arc)]
@@ -64,37 +66,25 @@
 
 ### C
 - ContiguousArray [[1](/Array.md#contiguousarray)]
+- Combine [[1](/Combine.md)]
 
 ### H
 - Heap (область памяти) [[1](/MemoryManagement.md#heap)]
+
+### K
+- KVC (Key-Value Coding) [[1](/KVO-KVC.md)]
+- KVO (Key-Value Observing) [[1](/KVO-KVC.md)]
 
 ### M
 - MRC - Manual reference counting [[1](/MemoryManagement.md#mrc)]
 
 ### N
+- Notification Center [[1](./NotificationCenter.md)]
 - NSArray [[1](/Array.md#nsarray)]
 - NSMutableArray [[1](/Array.md#nsmutablearray)]
 
 ### S
 - Stack (область памяти) [[1](/MemoryManagement.md#stack)]
-
----
-<a id="rus"></a>
-### А
-- Аттрибуты
-	- @main [[1](./AppExecution.md#launch)]
-	- @objc [[1](/ObjectiveCRuntime.md)]
-	- @UIApplicationMain [[1](./AppExecution.md#launch)]
-
-### К
-- Куча (область памяти) [[1](/MemoryManagement.md#heap)]
-
-### М
-- Массив (тип данных) [[1](/Array.md#array)]
-
-### С
-- Стек (область памяти) [[1](/MemoryManagement.md#stack)]
-
 
 ## Использование playground-файла
 

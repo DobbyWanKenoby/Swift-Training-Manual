@@ -27,14 +27,18 @@
 -	[Swift Standard Library](./SwiftStandardLibrary.md)
 -	[Строковые типы данных](./String.md)
 -	[Массив (Array)](./Array.md)
+-	Дата и время
+	- [DispatchTime и DispatchWallTime](./DispatchTime.md)
 
-### Асинхронные и реактивные интерфейсы
+### Асинхронное выполнение кода
 
+- [Потоки и многопоточность](/Thearding.md)
 - [Асинхронные и реактивные интерфейсы iOS](./Async.md)
 	- [Notification Center](./NotificationCenter.md)
 	- [KVO и KVC](KVO-KVC.md)
 	- [Combine](./Combine.md)
-	- [Потоки и многопоточность](/Thearding.md)
+
+
 
 ### Хранение данных
 
@@ -56,35 +60,43 @@
 ## Предметный указатель
 
 ### A
-- Autorelease (pool) [[1](/MemoryManagement.md#autoreleasepool)]
-- ARC - Automatic reference counting [[1](/MemoryManagement.md#arc)]
-- Array (тип данных) [[1](/Array.md#array)]
-- Attributes
+- Autorelease (Autoreleasepool) [[1](/MemoryManagement.md#autoreleasepool)]
+- ARC (Automatic reference counting, Автоматическое управление памятью) [[1](/MemoryManagement.md#arc)]
+- Array (Тип данных) [[1](/Array.md#array)]
+- Attributes (Аттрибуты)
 	- @main [[1](./AppExecution.md#launch)]
 	- @objc [[1](/ObjectiveCRuntime.md)]
 	- @UIApplicationMain [[1](./AppExecution.md#launch)]
 
 ### C
-- ContiguousArray [[1](/Array.md#contiguousarray)]
-- Combine [[1](/Combine.md)]
+- Сopy-on-assignment (COA, копирование при иницииализации) ([1](./MemoryManagement.md#coa-cow))
+- ContiguousArray (Тип данных) [[1](/Array.md#contiguousarray)]
+- Combine (фреймворк) [[1](/Combine.md)]
+- Сopy-on-write (COW, копирование при записи) ([1](./MemoryManagement.md#coa-cow))
+
+### D
+- DispatchTime (Тип данных) ([1](./DispatchTime.md))
+- DispatchWallTime (Тип данных) ([1](./DispatchTime.md)) 
 
 ### H
-- Heap (область памяти) [[1](/MemoryManagement.md#heap)]
+- Heap (Куча) [[1](/MemoryManagement.md#heap)]
 
 ### K
 - KVC (Key-Value Coding) [[1](/KVO-KVC.md)]
 - KVO (Key-Value Observing) [[1](/KVO-KVC.md)]
 
 ### M
-- MRC - Manual reference counting [[1](/MemoryManagement.md#mrc)]
+- MRC (Manual reference counting, Ручное управление памятью) [[1](/MemoryManagement.md#mrc)]
+- Multithearding (Многопоточность) [[1](/Thearding.md#mrc)]
 
 ### N
-- Notification Center [[1](./NotificationCenter.md)]
-- NSArray [[1](/Array.md#nsarray)]
-- NSMutableArray [[1](/Array.md#nsmutablearray)]
+- NotificationCenter (Класс) [[1](./NotificationCenter.md)]
+- Notification Center (Центр уведомлений) [[1](./NotificationCenter.md)]
+- NSArray (Тип данных) [[1](/Array.md#nsarray)]
+- NSMutableArray (Тип данных) [[1](/Array.md#nsmutablearray)]
 
 ### S
-- Stack (область памяти) [[1](/MemoryManagement.md#stack)]
+- Stack (Стек) [[1](/MemoryManagement.md#stack)]
 
 ## Использование playground-файла
 

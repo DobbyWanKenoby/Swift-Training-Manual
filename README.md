@@ -38,8 +38,6 @@
 	- [KVO и KVC](KVO-KVC.md)
 	- [Combine](./Combine.md)
 
-
-
 ### Хранение данных
 
 - [CoreData](./CoreData.md)

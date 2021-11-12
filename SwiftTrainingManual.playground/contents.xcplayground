@@ -1,2 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<playground version='6.0' target-platform='ios' display-mode='raw' buildActiveScheme='true'/>
+<playground version='6.0' target-platform='ios' display-mode='raw' buildActiveScheme='true'>
+    <pages>
+        <page name='__template'/>
+        <page name='__test'/>
+        <page name='Alghoritms - Sort'/>
+        <page name='Alghoritms - LinkedList + Iterator'/>
+        <page name='Array'/>
+        <page name='COW COA'/>
+        <page name='DateFormatter'/>
+        <page name='Debug LLDB'/>
+        <page name='DispatchTime'/>
+        <page name='HEADER'/>
+        <page name='Localization'/>
+        <page name='Multithearding - Barrier'/>
+        <page name='Multithearding - Deadlock'/>
+        <page name='Multithearding - GCD'/>
+        <page name='Multithearding - NSCondition'/>
+        <page name='Multithearding - NSLock'/>
+        <page name='Multithearding - NSObject'/>
+        <page name='Multithearding - Operation'/>
+        <page name='Multithearding - Priority Inversion'/>
+        <page name='Multithearding - pthread'/>
+        <page name='Multithearding - Race Condition'/>
+        <page name='Multithearding - Semaphore'/>
+        <page name='Multithearding - Thread'/>
+        <page name='Multithearding'/>
+        <page name='ObjCRuntime'/>
+        <page name='Operations with numbers'/>
+        <page name='Operations with strings'/>
+        <page name='Regexp'/>
+        <page name='UITesting'/>
+        <page name='URLSession'/>
+    </pages>
+</playground>

@@ -23,7 +23,7 @@ import Foundation
 
 //: __Использование BlockOperation__
 
-if false {
+if true {
     
     // добавляем первый блок
     let block = BlockOperation {
